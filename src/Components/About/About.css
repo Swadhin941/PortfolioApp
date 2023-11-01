@@ -1,0 +1,72 @@
+@media screen and (max-width: 576px) {
+    .aboutContentDiv {
+        display: flex;
+        justify-content: center;
+    }
+    .aboutImgDiv{
+        display: flex;
+        justify-content: center;
+        background-color: #F8F9FA;
+    }
+}
+@media (min-width: 577px) and (max-width: 767px) {
+    .aboutContent{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .aboutTextContent{
+        width: 300px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /* .aboutContentDiv {
+        display: flex;
+        justify-content: center;
+    } */
+    .aboutTextContent{
+        width: 300px;
+    }
+    .aboutContent{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .aboutImgDiv{
+        display: flex;
+        justify-content: center;
+        background-color: #F8F9FA;
+    }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+    /* .aboutContentDiv {
+        display: flex;
+        justify-content: center;
+    } */
+    .aboutTextContent{
+        width: 300px;
+    }
+    .aboutContent{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .aboutImgDiv{
+        display: flex;
+        justify-content: center;
+        background-color: #F8F9FA;
+    }
+}
+@media screen and (min-width: 1201px) {
+
+    .aboutContent{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .aboutTextContent{
+        width: 300px;
+    }
+    /* .aboutContentDiv{
+        display: flex;
+        justify-content: center;
+
+    } */
+}

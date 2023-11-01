@@ -1,0 +1,27 @@
+@media screen and (max-width:576px) {
+    .skillsImgDiv{
+        height: 50px;
+        width: 50px;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 766px) {
+    .skillsImgDiv{
+        height: 50px;
+        width: 50px;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 991px) {
+    .skillsImgDiv{
+        height: 80px;
+        width: 80px;
+    }
+}
+
+@media screen and (min-width:992px ) {
+    .skillsImgDiv{
+        height: 80px;
+        width: 80px;
+    }
+}

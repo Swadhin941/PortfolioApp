@@ -1,0 +1,37 @@
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    width: 100%;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.footer-links ul,
+.footer-social ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.footer-links li,
+.footer-social li {
+    margin: 0 10px;
+}
+
+.footer-links a,
+.footer-social a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+}
