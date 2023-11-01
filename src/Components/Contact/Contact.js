@@ -1,14 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
 import "./Contact.css";
 import toast, { Toaster } from "react-hot-toast";
+import ClipLoader from "react-spinners/ClipLoader";
 
 const Contact = () => {
+    const [messageLoading, setMessageLoading]= useState(false);
     const handleSubmit = e => {
         e.preventDefault();
         const form = e.target;
         const Name = form.name.value;
         const Email = form.email.value;
         const messages = form.message.value;
+        setMessageLoading(true);
         fetch(`${process.env.REACT_APP_SERVER}/post`, {
             method: "POST",
             headers: {
@@ -22,10 +25,12 @@ const Contact = () => {
                     toast.success("Message Saved");
                     form.reset();
                 }
+                setMessageLoading(false);
             })
             .catch(error=>{
                 toast.error(error.messages);
                 form.reset();
+                setMessageLoading(false);
             })
     }
     return (
@@ -46,7 +51,7 @@ const Contact = () => {
                             <label htmlFor="message">Message</label>
                             <textarea id="message" name="message" rows="4" required style={{ resize: "none" }}></textarea>
 
-                            <button type="submit" className='contactButton'>Send Message</button>
+                            <button type="submit" className='contactButton d-flex justify-content-center'>{messageLoading?<ClipLoader size={24} color='white' /> :"Send Message"}</button>
                             <Toaster />
                         </form>
                     </div>
