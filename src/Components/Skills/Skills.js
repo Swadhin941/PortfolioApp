@@ -66,6 +66,14 @@ const Skills = () => {
         {
             name: "C++",
             imgLink: "https://i.ibb.co/LxCMBj8/c.png"
+        },
+        {
+            name: "MySQL",
+            imgLink: "https://i.ibb.co/jvQDqy9/Mysql.png"
+        },
+        {
+            name: "Flask",
+            imgLink:"https://i.ibb.co/6tQG4vG/flask.jpg"
         }
     ];
     return (
