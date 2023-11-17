@@ -18,7 +18,7 @@ const Topbanner = () => {
                                         <h1 className='fw-bolder' style={{ color: '#6540F6' }}>Swadhin Ghosh</h1>
                                         <p >- <span className='fw-bolder'>Full-stack Developer</span></p>
                                         <div>
-                                            <button className='btn btn-cv' onClick={()=>toast.error("Resume not connected yet")}>Download Resume</button>
+                                            <a href='https://drive.google.com/file/d/18QzBlpz8miwqRKXdrl_0zfQ64m65b4LQ/view?usp=drive_link' className='btn btn-cv'>Download Resume</a>
                                             <Toaster />
                                         </div>
                                     </div>
