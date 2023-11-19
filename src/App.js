@@ -13,7 +13,7 @@ function App() {
 
 
   return (
-    <div className='container-fluid bg-custom'>
+    <div className='container-fluid bg-custom siteMargin'>
       <div className="row">
         <div className="col-12 col-md-12 col-lg-12">
           <Navbar></Navbar>

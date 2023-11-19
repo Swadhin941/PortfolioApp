@@ -39,3 +39,9 @@
 .bg-custom{
   background-color: #F8F9FA;
 }
+@media screen and (min-width: 1201px) {
+  .siteMargin{
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
