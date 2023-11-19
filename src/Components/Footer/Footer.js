@@ -15,7 +15,7 @@ const Footer = () => {
     }
 
     return (
-        <div className='container-fluid mt-3' id='footer'>
+        <div className='container-fluid p-0 mt-3' id='footer'>
             <div className="row">
                 <div className="col-12 col-md-12 col-lg-12">
                     <footer>
