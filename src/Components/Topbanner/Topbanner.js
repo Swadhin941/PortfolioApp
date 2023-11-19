@@ -16,7 +16,7 @@ const Topbanner = () => {
                                     <h6 className='fw-bold'>Hello! I'm</h6>
                                     <div className='ms-3'>
                                         <h1 className='fw-bolder' style={{ color: '#6540F6' }}>Swadhin Ghosh</h1>
-                                        <p >- <span className='fw-bolder'>Full-stack Developer</span></p>
+                                        <p >- <span className='fw-bolder'>Web Developer</span></p>
                                         <div>
                                             <a href='https://drive.google.com/file/d/18QzBlpz8miwqRKXdrl_0zfQ64m65b4LQ/view?usp=drive_link' className='btn btn-cv'>Download Resume</a>
                                             <Toaster />
